@@ -8,14 +8,14 @@
         display: none;
     }
 
-    .red-line{
+    .headline{
         margin-top: 50px;
         flex-direction: column;
         align-items: center;
         justify-content: center;
     }
 
-    .red-line__presentation{
+    .headline__presentation{
         align-items: center;
     }
 
@@ -28,18 +28,18 @@
         width: 100%;
     }
 
-    .red-line__presentation p{
+    .headline__presentation p{
         margin: 30px 0;
     }
 }
 
 @media screen and (max-width: 600px) {
-    .red-line__image img{
+    .headline__image img{
         width: 250px;
         margin-top: 20px;
     }
 
-    .red-line__presentation{
+    .headline__presentation{
         width: 250px;
     }
 

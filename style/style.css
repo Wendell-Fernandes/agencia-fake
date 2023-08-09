@@ -70,20 +70,20 @@ body{
     background: #ef2670;
 }
 
-.red-line{
+.headline{
     display: flex;
     flex-direction: row;
     margin-top: 110px;
 }
 
-.red-line__presentation{
+.headline__presentation{
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
 }
 
-.red-line__presentation h2{
+.headline__presentation h2{
     margin: 0;
     letter-spacing: 10px;
     font-weight: 900;
@@ -92,7 +92,7 @@ body{
     color: #190f43;
 }
 
-.red-line__presentation h1{
+.headline__presentation h1{
     margin: 0;
     color: #1a0e45;
     font-weight: 900;
@@ -100,7 +100,7 @@ body{
     font-family: Arial, Helvetica, sans-serif;
 }
 
-.red-line__presentation p{
+.headline__presentation p{
     margin: 15px 0;
     color: gray;
     font-family: Arial, Helvetica, sans-serif;
